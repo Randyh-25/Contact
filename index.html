@@ -57,8 +57,6 @@
             text-decoration: none;
         }
 
-        /* Additional CSS Selectors */
-
         a:hover {
             color: red;
             font-weight: bold;
@@ -98,6 +96,26 @@
 
         td:last-child {
             font-style: italic;
+        }
+
+        h1::before {
+            content: "🚀 ";
+        }
+
+        h1::after {
+            content: " 🚀";
+        }
+
+        h2::before {
+            content: "📝 ";
+        }
+
+        h2::after {
+            content: " 📝";
+        }
+
+        ul li::before {
+            content: "✔️ ";
         }
     </style>
     <title>Randy Hendriyawan</title>
